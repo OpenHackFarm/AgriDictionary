@@ -1,6 +1,6 @@
 import json
 
-f = open('locations.json')
+f = open('location.json')
 data = json.load(f)
 
 for city, locations in data.items():
